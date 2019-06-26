@@ -20,3 +20,8 @@ To add the CMS page "About us" to the main menu:
 
 * Add a new category "About us"
 * Enter the redirect URL "about-us.html"
+
+It is possible to add external links
+
+* Add a new category "Blog"
+* Enter the redirect URL "https://blog.company.com"
