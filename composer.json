@@ -1,5 +1,5 @@
 {
-    "name": "mestrona/magento-module-categoryredirect",
+    "name": "goodson/magento2-module-categoryredirect",
     "description": "Magento 2 Module to simply customize the menu with additional URLs: Create a category, enter the redirect, done.",
     "require": {
         "php": "^7.0",
@@ -13,7 +13,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Mestrona\\CategoryRedirect\\": ""
+            "Goodson\\CategoryRedirect\\": ""
         }
     }
 }
