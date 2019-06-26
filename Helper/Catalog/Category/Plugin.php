@@ -50,6 +50,9 @@ class Plugin
         }
 
         if ($redirect) {
+            if (filter_var($redirect, FILTER_VALIDATE_URL)) {
+                return $redirect;
+            }
             return $this->_helper->buildUrl($redirect);
         }
 
