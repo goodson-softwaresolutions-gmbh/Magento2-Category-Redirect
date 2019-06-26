@@ -1,6 +1,6 @@
 <?php
 
-namespace Mestrona\CategoryRedirect\Observer;
+namespace Goodson\CategoryRedirect\Observer;
 
 use Magento\Catalog\Model\ResourceModel\Category\Collection;
 use Magento\Framework\Event\Observer;

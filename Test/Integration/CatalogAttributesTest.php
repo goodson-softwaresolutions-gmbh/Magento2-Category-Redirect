@@ -1,5 +1,5 @@
 <?php
-namespace Mestrona\CategoryRedirect\Test\Unit;
+namespace Goodson\CategoryRedirect\Test\Unit;
 
 use Magento\Framework\App\Area;
 

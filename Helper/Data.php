@@ -1,6 +1,6 @@
 <?php
 
-namespace Mestrona\CategoryRedirect\Helper;
+namespace Goodson\CategoryRedirect\Helper;
 
 class Data
 {

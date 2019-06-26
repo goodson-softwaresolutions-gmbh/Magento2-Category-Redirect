@@ -1,11 +1,11 @@
 <?php
 
-namespace Mestrona\CategoryRedirect\Observer\Catalog\MenuCategoryData;
+namespace Goodson\CategoryRedirect\Observer\Catalog\MenuCategoryData;
 
 class Plugin
 {
     /**
-    * @var \Mestrona\CategoryRedirect\Helper\Data
+    * @var \Goodson\CategoryRedirect\Helper\Data
     */
     protected $_helper;
 
@@ -13,7 +13,7 @@ class Plugin
      * @param $helper
      */
     public function __construct(
-        \Mestrona\CategoryRedirect\Helper\Data $helper
+        \Goodson\CategoryRedirect\Helper\Data $helper
     ) {
         $this->_helper = $helper;
     }

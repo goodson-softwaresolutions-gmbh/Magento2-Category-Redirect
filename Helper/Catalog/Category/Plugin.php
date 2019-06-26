@@ -1,6 +1,6 @@
 <?php
 
-namespace Mestrona\CategoryRedirect\Helper\Catalog\Category;
+namespace Goodson\CategoryRedirect\Helper\Catalog\Category;
 
 class Plugin
 {
@@ -15,7 +15,7 @@ class Plugin
     /**
      * Helper
      *
-     * @var \Mestrona\CategoryRedirect\Helper\Data
+     * @var \Goodson\CategoryRedirect\Helper\Data
      */
     protected $_helper;
 
@@ -24,7 +24,7 @@ class Plugin
      */
     public function __construct(
         \Magento\Catalog\Model\CategoryFactory $categoryFactory,
-        \Mestrona\CategoryRedirect\Helper\Data $helper
+        \Goodson\CategoryRedirect\Helper\Data $helper
     ) {
         $this->_categoryFactory = $categoryFactory;
         $this->_helper = $helper;

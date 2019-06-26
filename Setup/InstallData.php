@@ -1,6 +1,6 @@
 <?php
 
-namespace Mestrona\CategoryRedirect\Setup;
+namespace Goodson\CategoryRedirect\Setup;
 
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
